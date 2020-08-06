@@ -1,12 +1,11 @@
 """Models for movie ratings app."""
-from flask import Flask
+
 from flask_sqlalchemy import SQLAlchemy
-import datetime
+
 
 db = SQLAlchemy()
 
-app = Flask(__name__)
-app.secret_key = 'ABC'
+
 
 # Replace this with your code!
 
